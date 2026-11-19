@@ -17,10 +17,12 @@ On the machine where this was found the process had written 220 GB in four
 hours (about 15 MB/s on average, bursts above 140 MB/s). Restarting the
 service does not help: the loop starts again right away.
 
-Seen with:
+The issue is seen only on NVIDIA drivers 621.14 and 621.24.
+
+Found on:
 
 - Windows 11 Pro, build 26300
-- GeForce RTX 2080 Ti, driver 32.0.16.2124 (dated 2026-11-07)
+- GeForce RTX 2080 Ti, driver 621.24 (Windows version 32.0.16.2124)
 
 ## Check that you have the same problem
 
