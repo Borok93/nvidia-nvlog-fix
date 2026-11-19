@@ -1,7 +1,12 @@
-# nvidia-nvlog-fix
+# nvidia-nvlog-fix: NVDisplay.Container.exe high disk usage (nvlog.nvlgstg)
 
 Stops the NVIDIA display container service from hammering the disk with a
 log file it rewrites in a loop.
+
+**Keywords:** NVDisplay.Container.exe high disk usage, NVIDIA Container 100%
+disk, nvlog.nvlgstg, nvtopps, `C:\ProgramData\NVIDIA Corporation\nvtopps\nct`,
+NVDisplay.ContainerLocalSystem, NVIDIA driver 621.14, NVIDIA driver 621.24,
+NVIDIA constant disk writes, SSD wear, Windows 11.
 
 ## Symptom
 
