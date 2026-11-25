@@ -24,6 +24,11 @@ service does not help: the loop starts again right away.
 
 The issue is seen only on NVIDIA drivers 621.14 and 621.24.
 
+**Fixed in driver 621.40** (Windows version 32.0.16.2140): after updating,
+with the workaround removed, the service wrote 1.4 MB in a 10-minute check
+and `nvlog.nvlgstg` stayed at 111 KB. Updating the driver is the better fix.
+If you applied this workaround, run the script with `-Revert` after updating.
+
 Found on:
 
 - Windows 11 Pro, build 26300
